@@ -64,7 +64,7 @@ li {
 	background-color: #f4f4f4;
 	border-bottom: 1px solid #ededed;
 	margin-top: -13px;
-	padding: 8px 0;
+	padding: 15px 0;
 	position: relative;
 	z-index: 4;
 }
@@ -191,15 +191,6 @@ li {
 	padding: 9px 0;
 }
 
-
-#header .header-logo img {
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	position: relative;
-	margin: 15px 15px 15px 0;
-	top: 0;
-}
 
 #header .header-logo h3 {
 	padding-top: 5px;
@@ -1180,7 +1171,6 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 	#header .header-column .header-row {
 		display: block;
 	}
-
 	#header.header-mobile-nav-only .header-logo {
 		float: none;
 	}
@@ -2095,15 +2085,16 @@ aside ul.nav-list > li > a {
 	color: #FFF;
 	font-size: 52px;
 	line-height: 52px;
-	font-weight: 800;
+	font-weight: 900;
+  width: 100%;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .slider-container .bottom-label {
 	color: #FFF;
-	font-size: 20px;
+	font-size: 60px;
 	line-height: 20px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .slider-container .blackboard-text {
